@@ -19,6 +19,6 @@ namespace Soccer.Web.Data.Entities
         //    ? "https://SoccerWeb4.azurewebsites.net//images/noimage.png"
         //    : $"https://SoccerWeb4.azurewebsites.net{LogoPath.Substring(1)}";
         
-        //public ICollection<UserEntity> Users { get; set; }
+        public ICollection<UserEntity> Users { get; set; }
     }
 }
