@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace Soccer.Web.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class TournamentsController : Controller
     {
         private readonly IConverterHelper _converterHelper;
